@@ -5,7 +5,7 @@ from random import shuffle
 import requests
 from telegram.ext import Updater, CommandHandler
 
-token = '1394685669:AAEdUCqCBhtYwMUlYnXK11-7pP2i95XUG4g'
+token = 'TokenHere'
 updater = Updater(token=token, use_context=True)
 dispatcher = updater.dispatcher
 print(updater)
